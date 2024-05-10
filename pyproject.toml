@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "connect-4-ai"
+version = "0.1.0"
+description = ""
+authors = ["Karun Japhet <karun@japhet.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+kaggle-environments = "^1.14.3"
+termcolor = "^2.4.0"
+pygame = "^2.5.2"
+ipython = "^8.24.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
